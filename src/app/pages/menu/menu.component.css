@@ -1,0 +1,29 @@
+
+.foodbox{
+    padding: 10px 10px;
+  }
+  
+  .foodbox img{
+    width: 100%;
+    height: 250px;
+    /* object-fit: cover CSS özelliği, bir HTML img veya video elementinin boyutunu,
+     elementin içinde sığdırıldığı alanın boyutuna göre ayarlar ve içeriğin tamamının görünmesini sağlar. */
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .foodbox h1{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .buybtn{
+    color: #000;
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
